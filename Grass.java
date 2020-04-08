@@ -11,7 +11,6 @@ public class Grass extends Plant {
 		// this is silly code really, but as an example
 		int newX = (int)(Math.random()*20);
 		int newY = (int)(Math.random()*20); 
-		System.out.println("Does this work");
 		
 		myWorld.getCreatureList().add(new Grass(new Location(newX,newY), myWorld));
 	}
